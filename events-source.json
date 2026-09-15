@@ -1,0 +1,32 @@
+{
+  "_comment": "Curated source for the Sennyu-ji (泉涌寺) calendar. build.js reads this and generates data.json for the rolling 6-month window. Edit the 'dated' entries when the temple announces new dates (autumn light-ups, OTOBUTAI editions, foliage). recurringMonthly / annualFixed / annualNthWeekday regenerate automatically every year.",
+
+  "recurringMonthly": [
+    { "kind": "dayOfMonth", "day": 18, "rangeLabel": "18 / 21", "noDay": true, "jp": "今熊野観音寺 月次（観音会・御影供）", "en": "Sub-temple monthly services (Kannon-e 18th, Kobo Daishi 21st)", "tier": "note", "status": "confirmed", "url": "https://www.kannon.jp/nenju-gyoji" }
+  ],
+
+  "annualFixed": [
+    { "mm": 9, "dd": 21, "endMm": 9, "endDd": 23, "jp": "四国八十八ヶ所お砂踏法要（今熊野観音寺）", "en": "88-temple sand-treading pilgrimage service", "tier": "note", "status": "confirmed", "url": "https://www.kannon.jp/nenju-gyoji" },
+    { "mm": 9, "dd": 23, "jp": "秋季彼岸会（今熊野観音寺）", "en": "Autumn equinox memorial service", "tier": "note", "status": "confirmed", "url": "https://www.kannon.jp/nenju-gyoji" },
+    { "mm": 10, "dd": 7, "endMm": 10, "endDd": 8, "jp": "舎利会法要（泉涌寺）", "en": "Shari-e Buddha-relic ceremony (head temple)", "tier": "note", "status": "confirmed", "url": "https://mitera.org/archives/category/events" },
+    { "mm": 12, "dd": 31, "jp": "除夜の鐘・お終い参り", "en": "New Year's Eve bell and year-end visit", "tier": "heavy", "status": "confirmed", "url": "https://www.kannon.jp/nenju-gyoji" },
+    { "mm": 1, "dd": 1, "endMm": 1, "endDd": 3, "jp": "修正会・新年参拝", "en": "New Year prayer service and first visits", "tier": "block", "status": "confirmed", "url": "https://www.kannon.jp/nenju-gyoji", "nt": "New Year crowds across the complex are heavy." },
+    { "mm": 1, "dd": 15, "jp": "新年厄除開運大祈願祭（今熊野観音寺）", "en": "New Year blessing and good-fortune service", "tier": "note", "status": "confirmed", "url": "https://www.kannon.jp/nenju-gyoji" },
+    { "mm": 1, "dd": 18, "jp": "初観音会（今熊野観音寺）", "en": "First Kannon service of the year", "tier": "note", "status": "confirmed", "url": "https://www.kannon.jp/nenju-gyoji" },
+    { "mm": 1, "dd": 21, "jp": "初大師会（今熊野観音寺）", "en": "First Kobo Daishi service of the year", "tier": "note", "status": "confirmed", "url": "https://www.kannon.jp/nenju-gyoji" },
+    { "mm": 2, "dd": 3, "jp": "節分星供大祈願会（今熊野観音寺）", "en": "Setsubun star-blessing prayer service", "tier": "heavy", "status": "confirmed", "url": "https://www.kannon.jp/nenju-gyoji" },
+    { "mm": 3, "dd": 14, "endMm": 3, "endDd": 16, "jp": "泉山涅槃会・大涅槃図公開", "en": "Senzan Nirvana ceremony and Great Nirvana Painting display", "tier": "heavy", "status": "confirmed", "url": "https://www.the-kyoto.jp/calendar/march/sennyu-nehan/", "nt": "The Great Nirvana Painting (about 16m) is shown from around Mar 8. Largest spring event." }
+  ],
+
+  "annualNthWeekday": [
+    { "mm": 10, "n": 3, "weekday": 0, "jp": "即成院 二十五菩薩お練り供養法会", "en": "Sokujo-in Twenty-five Bodhisattvas procession", "tier": "block", "status": "confirmed", "url": "https://www.gensegokuraku.com/お練り供養", "nt": "Flagship autumn ritual (3rd Sunday of October): ~300-person procession across a 50m bridge, from 13:00." },
+    { "mm": 1, "n": 2, "weekday": 1, "jp": "泉山七福神巡り", "en": "Senzan Seven Lucky Gods pilgrimage", "tier": "block", "status": "confirmed", "url": "https://ja.kyoto.travel/event/single.php?event_id=4352", "nt": "Coming-of-Age Day (2nd Monday of January): 9 sub-temples, 8:00-16:00. Busiest winter day." }
+  ],
+
+  "dated": [
+    { "iso": "2026-10-24", "jp": "OTOBUTAI 2026 泉涌寺（第39回）", "en": "OTOBUTAI 2026: ballet, music and ritual performance", "tier": "block", "status": "confirmed", "url": "https://www.mbs.jp/otobutai/", "nt": "Produced evening performance (doors 17:30, start 18:30). Grounds given over to the production that evening." },
+    { "iso": "2026-11-15", "endIso": "2026-11-30", "range": "~Nov 15 - 30", "jp": "今熊野観音寺 紅葉まつり／紅葉 見頃", "en": "Autumn-foliage festival and peak leaves", "tier": "heavy", "status": "projected", "url": "https://www.kannon.jp/nenju-gyoji", "nt": "Projected from 2025 pattern; confirm in late October." },
+    { "iso": "2026-11-20", "endIso": "2026-11-24", "range": "~Nov 20 - 24", "jp": "雲龍院 秋の特別拝観・ライトアップ", "en": "Unryu-in autumn viewing and evening light-up", "tier": "heavy", "status": "projected", "url": "https://ja.kyoto.travel/event/single.php?event_id=4064" },
+    { "iso": "2026-11-02", "endIso": "2026-12-28", "range": "~Nov 2 - Dec 28 (Mon)", "jp": "泉涌寺 秋の早朝特別拝観", "en": "Autumn early-morning special viewing (reservation, small groups)", "tier": "note", "status": "projected", "url": "https://ja.kyoto.travel/event/single.php?event_id=13148" }
+  ]
+}
