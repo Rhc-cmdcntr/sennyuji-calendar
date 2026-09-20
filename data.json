@@ -1,20 +1,8 @@
 {
-  "updated": "15 Sep 2026",
-  "windowLabel": "15 Sep 2026 to end Mar 2027",
-  "nextRefresh": "Mon 21 Sep 2026, 07:00 JST",
+  "updated": "21 Sep 2026",
+  "windowLabel": "21 Sep 2026 to end Mar 2027",
+  "nextRefresh": "Mon 28 Sep 2026, 07:00 JST",
   "events": [
-    {
-      "m": "Sep 2026",
-      "d": "-",
-      "dow": "",
-      "iso": "2026-09-18",
-      "jp": "今熊野観音寺 月次（観音会・御影供）",
-      "en": "Sub-temple monthly services (Kannon-e 18th, Kobo Daishi 21st)",
-      "tier": "note",
-      "status": "confirmed",
-      "url": "https://www.kannon.jp/nenju-gyoji",
-      "range": "18 / 21"
-    },
     {
       "m": "Sep 2026",
       "d": "21",
@@ -263,6 +251,18 @@
       "url": "https://www.the-kyoto.jp/calendar/march/sennyu-nehan/",
       "range": "Mar 14 - 16",
       "nt": "The Great Nirvana Painting (about 16m) is shown from around Mar 8. Largest spring event."
+    },
+    {
+      "m": "Mar 2027",
+      "d": "-",
+      "dow": "",
+      "iso": "2027-03-18",
+      "jp": "今熊野観音寺 月次（観音会・御影供）",
+      "en": "Sub-temple monthly services (Kannon-e 18th, Kobo Daishi 21st)",
+      "tier": "note",
+      "status": "confirmed",
+      "url": "https://www.kannon.jp/nenju-gyoji",
+      "range": "18 / 21"
     }
   ]
 }
